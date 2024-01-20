@@ -157,24 +157,24 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 
 ```
 2. Instalar la libreria de **ArduinoJson**, **PubSubClient** y **DHT sensor library for ESPx** como se muestra en la siguiente imagen.
-![](https://github.com/AbrahamCH1/Practica-No.5-DHT11-con-Ultrasonico/blob/main/Captura%20de%20pantalla%20(305).png?raw=true)
+![](https://github.com/AbrahamCH1/Practica-No.8-Node-RED-con-DHT22/blob/main/Captura%20de%20pantalla%20(322).png?raw=true)
 
 3. Hacer la conexion del sensor **DHT11** con la **ESP32** como se muestra en la siguente imagen.
-![](https://github.com/AbrahamCH1/Practica-No.5-DHT11-con-Ultrasonico/blob/main/Captura%20de%20pantalla%20(306).png?raw=true)
+![](https://github.com/AbrahamCH1/Practica-No.8-Node-RED-con-DHT22/blob/main/Captura%20de%20pantalla%20(323).png?raw=true)
 
 4. Abrir **Node-RED** y hacer la conexión de las herramientas como se muestra en la imagen.
-![]()
+![](https://github.com/AbrahamCH1/Practica-No.8-Node-RED-con-DHT22/blob/main/Captura%20de%20pantalla%20(324).png?raw=true)
 
 5. Colocar el servidor y el topico dando *doble click* en el recuadro de *mqtt in**.
-![]()
+![](https://github.com/AbrahamCH1/Practica-No.8-Node-RED-con-DHT22/blob/main/Captura%20de%20pantalla%20(325).png?raw=true)
 
 6. Agregar las lineas de código en los recuadros de *function*.
-![]()
-![]()
+![](https://github.com/AbrahamCH1/Practica-No.8-Node-RED-con-DHT22/blob/main/Captura%20de%20pantalla%20(329).png?raw=true)
+![](https://github.com/AbrahamCH1/Practica-No.8-Node-RED-con-DHT22/blob/main/Captura%20de%20pantalla%20(330).png?raw=true)
 
 7. Modificar los parametros de las gráficas de temperatura y humedad dando *doble click* en los recuadros.
-![]()
-![]()
+![](https://github.com/AbrahamCH1/Practica-No.8-Node-RED-con-DHT22/blob/main/Captura%20de%20pantalla%20(326).png?raw=true)
+![](https://github.com/AbrahamCH1/Practica-No.8-Node-RED-con-DHT22/blob/main/Captura%20de%20pantalla%20(327).png?raw=true)
 
 8. Dar *click* en el botón *deploy* y abrir la interfaz para observar los resultados.
 
@@ -185,9 +185,8 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 5. Colocar los valores de temperatura y humedad dando *doble click* al sensor **DHT11**. 
 ## Resultados
 Cuando haya funcionado, se podrán observar los valores en la interfaz de Node-RED.
-![](https://github.com/AbrahamCH1/Practica-No.5-DHT11-con-Ultrasonico/blob/main/Captura%20de%20pantalla%20(307).png?raw=true)
-![](https://github.com/AbrahamCH1/Practica-No.5-DHT11-con-Ultrasonico/blob/main/Captura%20de%20pantalla%20(308).png?raw=true)
-![](https://github.com/AbrahamCH1/Practica-No.5-DHT11-con-Ultrasonico/blob/main/Captura%20de%20pantalla%20(309).png?raw=true)
+![](https://github.com/AbrahamCH1/Practica-No.8-Node-RED-con-DHT22/blob/main/Captura%20de%20pantalla%20(328).png?raw=true)
+
 
 # Créditos
 Desarrollado por Ing. Abraham Contreras Herrera
